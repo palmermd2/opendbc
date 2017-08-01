@@ -33,10 +33,14 @@ NS_ :
 
 BS_:
 
-BU_: 
+BU_: XXX
 
 
-BO_ 2 Leaf 0:2: 8 XXX
+BO_ 2 NEW_MSG_1: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 768 SteeringTorque: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
 
 
 
