@@ -44,7 +44,7 @@ BO_ 768 SteeringTorque: 8 XXX
 
 BO_ 640 seatbelts: 8 XXX
  SG_ DriverSeatbelt : 1|1@0+ (1,0) [0|1] "" XXX
- SG_ NEW_SIGNAL_1 : 0|1@0+ (1,0) [0|1] "" XXX
+ SG_ passSeatbelt : 0|1@0+ (1,0) [0|1] "" XXX
 
 
 
