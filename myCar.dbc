@@ -46,6 +46,9 @@ BO_ 640 seatbelts: 8 XXX
  SG_ DriverSeatbelt : 1|1@0+ (1,0) [0|1] "" XXX
  SG_ passSeatbelt : 0|1@0+ (1,0) [0|1] "" XXX
 
+BO_ 304 oneThirty: 8 XXX
+ SG_ oneThirty_zero : 7|8@0+ (1,0) [0|255] "" XXX
+
 
 
 
