@@ -54,6 +54,11 @@ BO_ 644 speeds: 8 XXX
  SG_ wheel speed 2 : 23|16@0+ (1,0) [0|65535] "" XXX
  SG_ vehicle speed : 39|16@0+ (1,0) [0|65535] "" XXX
 
+BO_ 645 speeds 2: 8 XXX
+ SG_ rear wheel 1 : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ rear wheel 2 : 23|16@0+ (1,0) [0|65535] "" XXX
+ SG_ clock? : 55|16@0+ (1,0) [0|65535] "" XXX
+
 
 
 
