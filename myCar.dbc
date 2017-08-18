@@ -33,7 +33,7 @@ NS_ :
 
 BS_:
 
-BU_: XXX
+BU_: XXX 1
 
 
 BO_ 2 two: 8 XXX
@@ -48,6 +48,11 @@ BO_ 640 seatbelts: 8 XXX
 
 BO_ 304 oneThirty: 8 XXX
  SG_ oneThirty_zero : 7|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 644 speeds: 8 XXX
+ SG_ wheel speed 1 : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ wheel speed 2 : 23|16@0+ (1,0) [0|65535] "" XXX
+ SG_ vehicle speed : 39|16@0+ (1,0) [0|65535] "" XXX
 
 
 
