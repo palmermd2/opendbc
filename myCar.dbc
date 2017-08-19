@@ -37,7 +37,9 @@ BU_: XXX 1
 
 
 BO_ 2 steering: 8 XXX
- SG_ steering angle : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_3 : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ steering angle? : 7|16@0- (1,0) [0|65535] "" XXX
+ SG_ steering change? : 23|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 768 Steering: 8 XXX
  SG_ steeringTorque : 7|8@0+ (1,0) [0|255] "" XXX
@@ -50,11 +52,17 @@ BO_ 304 oneThirty: 8 XXX
  SG_ oneThirty_zero : 7|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 644 speeds: 8 XXX
- SG_ v : NaN|NaN@0+ (NaN,NaN) [3|9] "," 1
 
 BO_ 469 brake: 8 XXX
- SG_ t : 0|0@0+ (0,0) [0|7] "," 1
- SG_ regen target ? : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ regen brake? : 7|12@0+ (1,0) [0|4095] "" XXX
+
+BO_ 372 PRNDL: 8 XXX
+ SG_ reverse : 25|1@0+ (1,0) [0|1] "" XXX
+ SG_ park : 24|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 459 brake: 8 XXX
+ SG_ target regen? : 7|12@0+ (1,0) [0|4095] "" XXX
+ SG_ target braking? : 23|12@0+ (1,0) [0|4095] "" XXX
 
 
 
