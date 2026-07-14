@@ -11,6 +11,7 @@ FW_VERSIONS = {
       b'TeMYG4_DCS_Update_0.0.0 (13),E4014.28.1',
       b'TeMYG4_DCS_Update_0.0.0 (9),E4014.26.0',
       b'TeMYG4_SingleECU_0.0.0 (33),E4S014.27',
+      b'TeM3_E014p10_0.0.0 (24),EL014.20.2',
     ],
     (Ecu.engine, 0x606, None): [
       b'\x01\x00\x05\x18A\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x000\x91',
